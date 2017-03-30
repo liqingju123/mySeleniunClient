@@ -3,10 +3,10 @@ package mySeleniumClient;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
-public class FindEleById {
+public class FindElement {
 	private String idName;
 
-	public FindEleById(String idName) {
+	public FindElement(String idName) {
 		this.idName = idName;
 	}
 

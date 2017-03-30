@@ -3,7 +3,7 @@ package mySeleniumClient;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
-public class StartBro {
+public class StartBrowse {
 	
 	private String content = "{\"desiredCapabilities\":{\"browserName\":\"chrome\",\"chromeOptions\":{\"args\":[],\"extensions\":[]},\"version\":\"\",\"platform\":\"ANY\"},\"requiredCapabilities\":{},\"capabilities\":{\"desiredCapabilities\":{\"browserName\":\"chrome\",\"chromeOptions\":{\"args\":[],\"extensions\":[]},\"version\":\"\",\"platform\":\"ANY\"},\"requiredCapabilities\":{},\"alwaysMatch\":{\"version\":\"\",\"platform\":\"ANY\"},\"firstMatch\":[{\"browserName\":\"chrome\",\"chromeOptions\":{\"args\":[],\"extensions\":[]}}]}}";
 	public  String sessionId = "";
